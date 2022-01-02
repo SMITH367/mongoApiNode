@@ -4,4 +4,5 @@ mongose.connect("mongodb+srv://bpuser:smith367@clusterdev.5prwe.mongodb.net/myFi
     .then((db) => console.log("database connected"))
     .catch((err) => console.log(err))
 
+    
 module.exports = mongose
